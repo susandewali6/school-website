@@ -55,7 +55,6 @@ const Navbar = () => {
   const aboutLinks = [
     { to: "/about", label: "About Us" },
     { to: "/features", label: "Our Facilities" },
-    { to: "/team", label: "Our Team" },
     { to: "/gallery", label: "Gallery" },
   ];
 
@@ -106,7 +105,7 @@ const Navbar = () => {
                     <Link
                       key={index}
                       to={link.to}
-                      className="py-2 px-4 nav-hover hover:bg-primary-450 hover:text-white group"
+                      className="py-2 px-4 nav-hover hover:bg-yellow-200 group"
                     >
                       <p className="group-hover:translate-x-2 duration-500">
                         {link.label}
