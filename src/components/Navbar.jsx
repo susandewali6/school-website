@@ -54,7 +54,7 @@ const Navbar = () => {
 
   const aboutLinks = [
     { to: "/about", label: "About Us" },
-    { to: "/features", label: "Our Facilities" },
+    { to: "/team", label: "Our team" },
     { to: "/gallery", label: "Gallery" },
   ];
 
@@ -64,7 +64,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="sticky top-0 z-50 w-full ">
+    <div className=" fixed top-0 z-50 w-full fix ">
       {/* Navbar for larger devices more than 1024px */}
 
 

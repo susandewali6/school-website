@@ -8,8 +8,8 @@ export default () => {
           name: 'About'
       },
       {
-          href: 'javascript:void()',
-          name: 'our Facilities '
+          href: '/team',
+          name: 'our team '
       },
       {
           href: 'javascript:void()',

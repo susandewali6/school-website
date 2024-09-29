@@ -6,6 +6,7 @@ import Services from "./pages/Services";
 import Aboutus from "./pages/Aboutus";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
+import Ourteam from "./components/Ourteam";
 
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
       <Route path={"/about"} element={<Aboutus />}></Route>
       <Route path={"/contact"} element={<Contact />} ></Route>
       <Route path={"/gallery"} element={<Gallery />} ></Route>
+      <Route path={"/team"} element={<Ourteam/>} ></Route>
     </Routes>
   </div>
    <Footer />
