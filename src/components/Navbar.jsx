@@ -125,7 +125,7 @@ const Navbar = () => {
 
 
 
-            <Link to="/contactus" className="list-none cursor-pointer">
+            <Link to="/contact" className="list-none cursor-pointer">
               CONTACT
             </Link>
 
@@ -242,7 +242,7 @@ const Navbar = () => {
 
 
           <Link
-            to="/contactus"
+            to="/contact"
             className="list-none cursor-pointer py-2 px-4 border-b border-gray-300"
             onClick={toggleMenu}
           >

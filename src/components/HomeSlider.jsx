@@ -2,17 +2,17 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-yellow-300 ">
       {/* Header */}
       
 
       {/* Hero Section */}
-      <section id="home" className="bg-cover bg-center h-screen" style={{ backgroundImage: "url('https://example.com/hero-image.jpg')" }}>
-        <div className="h-full flex items-center justify-center bg-black bg-opacity-50">
+      <section id="home" className="bg-cover bg-center h-screen" >
+        <div className="h-full flex items-center justify-center">
           <div className="text-center text-white">
             <h1 className="text-5xl font-bold mb-4">Welcome to Sewakai Church</h1>
             <p className="text-lg mb-8">Join us for worship, community, and spiritual growth</p>
-            <a href="#services" className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-semibold">
+            <a href="#services" className="bg-black  text-white px-6 py-3 rounded-lg font-semibold">
               Explore Services
             </a>
           </div>
@@ -59,7 +59,8 @@ const Home = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 bg-indigo-600 text-white">
+      <section id="contact" className="py-16 bg-yellow-300 text-white">
+
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">Contact Us</h2>
           <p className="mb-4">Have any questions or want to get in touch?</p>

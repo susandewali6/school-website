@@ -7,6 +7,7 @@ import Aboutus from "./pages/Aboutus";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 import Ourteam from "./components/Ourteam";
+import contact from "./pages/Contact"
 
 
 export default function App() {
@@ -22,6 +23,8 @@ export default function App() {
       <Route path={"/contact"} element={<Contact />} ></Route>
       <Route path={"/gallery"} element={<Gallery />} ></Route>
       <Route path={"/team"} element={<Ourteam/>} ></Route>
+      <Route path={"/contact"} element={<Contact/>} ></Route>
+      
     </Routes>
   </div>
    <Footer />
